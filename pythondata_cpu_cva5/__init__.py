@@ -4,33 +4,33 @@ data_location = os.path.join(__dir__, "system_verilog")
 src = "https://github.com/openhwgroup/cva5"
 
 # Module version
-version_str = "0.0.post641"
-version_tuple = (0, 0, 641)
+version_str = "0.0.post645"
+version_tuple = (0, 0, 645)
 try:
     from packaging.version import Version as V
-    pversion = V("0.0.post641")
+    pversion = V("0.0.post645")
 except ImportError:
     pass
 
 # Data version info
-data_version_str = "0.0.post503"
-data_version_tuple = (0, 0, 503)
+data_version_str = "0.0.post507"
+data_version_tuple = (0, 0, 507)
 try:
     from packaging.version import Version as V
-    pdata_version = V("0.0.post503")
+    pdata_version = V("0.0.post507")
 except ImportError:
     pass
-data_git_hash = "b4d6a9fa2996c9bc1e9955afe5aefa9803be4993"
-data_git_describe = "v0.0-503-gb4d6a9f"
+data_git_hash = "3239e20360993151f435fc2f5a567e09b3f185ad"
+data_git_describe = "v0.0-507-g3239e20"
 data_git_msg = """\
-commit b4d6a9fa2996c9bc1e9955afe5aefa9803be4993
-Merge: 14c4be9 b2e425a
+commit 3239e20360993151f435fc2f5a567e09b3f185ad
+Merge: b4d6a9f ce38554
 Author: Mike Thompson <mike@openhwgroup.org>
-Date:   Mon May 16 15:19:30 2022 -0400
+Date:   Thu May 26 13:17:14 2022 -0400
 
-    Merge pull request #4 from e-matthews/litex
+    Merge pull request #5 from e-matthews/minor-fixes
     
-    Fetch and Load-Store Interface Refactor and LiteX Support
+    Minor fixes
 
 """
 
