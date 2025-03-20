@@ -13,24 +13,23 @@ except ImportError:
     pass
 
 # Data version info
-data_version_str = "0.0.post507"
-data_version_tuple = (0, 0, 507)
+data_version_str = "0.0.post579"
+data_version_tuple = (0, 0, 579)
 try:
     from packaging.version import Version as V
-    pdata_version = V("0.0.post507")
+    pdata_version = V("0.0.post579")
 except ImportError:
     pass
-data_git_hash = "3239e20360993151f435fc2f5a567e09b3f185ad"
-data_git_describe = "v0.0-507-g3239e20"
+data_git_hash = "101987c502602e06b9162e76a1042dc33ec2ffdb"
+data_git_describe = "v0.9-579-g101987c"
 data_git_msg = """\
-commit 3239e20360993151f435fc2f5a567e09b3f185ad
-Merge: b4d6a9f ce38554
-Author: Mike Thompson <mike@openhwgroup.org>
-Date:   Thu May 26 13:17:14 2022 -0400
+commit 101987c502602e06b9162e76a1042dc33ec2ffdb
+Merge: 4efa1e2d0326ad1cc9d957b313cd2b4f3b4b7ae4
+Author: mohammadshahidzade <48639781+mohammadshahidzade@users.noreply.github.com>
+Date: Mon Mar 17 20:19:22 2025 -0700
 
-    Merge pull request #5 from e-matthews/minor-fixes
-    
-    Minor fixes
+    adding the marchid (#30)
+
 
 """
 
